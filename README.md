@@ -14,6 +14,7 @@ Make sure your system is updated and PHP CLI is installed.
 sudo apt update
 sudo apt install php8.3-cli
 sudo apt install php8.3-xml
+sudo apt install php8.3-mbstring
 sudo systemctl restart php8.3-fpm 2>/dev/null
 ```
 
